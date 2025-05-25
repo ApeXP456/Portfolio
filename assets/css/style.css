@@ -1912,7 +1912,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .form-submit-button:hover {
     background-color: var(--vegas-gold);
-    color: var(--smoky-black);
+    color: var(--white-1);
   }
 
 }
