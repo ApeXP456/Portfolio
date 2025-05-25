@@ -1850,5 +1850,68 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+  /*-----------------------------------*\
+    #FORMSUBMIT CUSTOM FORM
+  \*-----------------------------------*/
+
+  .form-submit-container {
+    background-color: #1b1b1b;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: var(--shadow-2);
+  }
+
+  .form-submit-heading {
+    color: var(--orange-yellow-crayola);
+    font-size: var(--fs-2);
+    margin-bottom: 1em;
+  }
+
+  .form-group {
+    margin-bottom: 1.5em;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex: 1;
+    min-width: 220px;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #111;
+    color: var(--white-1);
+    border: 1px solid var(--jet);
+    font-size: var(--fs-6);
+    font-family: var(--ff-poppins);
+  }
+
+  .form-control::placeholder {
+    color: var(--light-gray);
+  }
+
+  .form-submit-button {
+    width: 100%;
+    background-color: var(--orange-yellow-crayola);
+    color: var(--smoky-black);
+    font-weight: var(--fw-600);
+    font-size: var(--fs-6);
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .form-submit-button:hover {
+    background-color: var(--vegas-gold);
+  }
 
 }
