@@ -46,9 +46,6 @@ To use your own email:
 
 This site is Netlify-ready. 
 
-## 📸 Demo
-![[Screenshot 2025-05-25 170949.png]]
-
 ## 📬 Contact
 
 Created by **[Jarod Cunningham]**  
