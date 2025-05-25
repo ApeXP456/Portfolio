@@ -906,43 +906,37 @@
       -->
 
       <article class="contact" data-page="contact">
-
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188705.76967657977!2d-83.26401199842344!3d42.352592991773925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824ca0110cb1d75%3A0x5776864e35b9c4d2!2sDetroit%2C%20MI!5e0!3m2!1sen!2sus!4v1722473349409!5m2!1sen!2sus" 
-              width="400" height="300" loading="lazy">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d188705.76967657977!2d-83.26401199842344!3d42.352592991773925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824ca0110cb1d75%3A0x5776864e35b9c4d2!2sDetroit%2C%20MI!5e0!3m2!1sen!2sus!4v1680024688945!5m2!1sen!2sus" 
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
             </iframe>
           </figure>
         </section>
 
         <section class="contact-form">
+           <div class="container">
+            <h1>Send Me a Message</h1>
+            <form target="_blank" action="https://formsubmit.co/jarodcunningham456@gmail.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="https://main--jarodcunningham.netlify.app/thank-you.html">
 
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
+              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              <textarea name="message" class="form-control" placeholder="Your Message" rows="10" required></textarea>
+              <button type="submit" class="btn">Submit Form</button>
+            </form>
+          </div>
         </section>
-
       </article>
+
+
 
     </div>
 
