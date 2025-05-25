@@ -1898,20 +1898,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .form-submit-button {
-    width: 100%;
-    background-color: var(--orange-yellow-crayola);
-    color: var(--smoky-black);
-    font-weight: var(--fw-600);
-    font-size: var(--fs-6);
-    padding: 12px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s ease;
+  width: 100%;
+  background-color: var(--orange-yellow-crayola);
+  color: var(--white-1);
+  font-weight: var(--fw-600);
+  font-size: var(--fs-6);
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
   }
 
   .form-submit-button:hover {
     background-color: var(--vegas-gold);
+    color: var(--smoky-black);
   }
 
 }
