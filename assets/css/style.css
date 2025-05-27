@@ -1858,7 +1858,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     background-color: #1b1b1b;
     padding: 2em;
     border-radius: 12px;
-    box-shadow: var(--shadow-2);
+    box-shadow: var(--white-1);
   }
 
   .form-submit-heading {
