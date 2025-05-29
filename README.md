@@ -52,5 +52,5 @@ To use your own email:
 
 ## 📬 Contact
 
-Created by **[Jarod Cunningham]**  
+Created by **[Jarod Cunningham]**
 Feel free to reach out!
