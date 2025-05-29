@@ -1,10 +1,13 @@
 # Contact Form Website
 [![Netlify Status](https://api.netlify.com/api/v1/badges/28c7c174-a657-441e-a137-fd53d85ca7e5/deploy-status)](https://app.netlify.com/projects/jarodcunningham/deploys)
 
+## 💡 Deployment
+
+This site is Netlify-ready. 
 Visit the Website here:
 https://jarodcunningham.netlify.app/
 
-This is a sleek, dark-themed contact form website built with HTML, CSS, and integrated with [FormSubmit](https://formsubmit.co) for backend-free form submissions. The site includes a styled submission form, a custom thank-you page, and responsive layout optimized for deployment (e.g., Netlify).
+This is a sleek, dark-themed contact form website built with HTML, CSS, JS, and integrated with [FormSubmit](https://formsubmit.co) for backend-free form submissions. The site includes a styled submission form, a custom thank-you page, and responsive layout optimized for deployment (e.g., Netlify).
 
 ## 🚀 Features
 
@@ -28,7 +31,6 @@ This is a sleek, dark-themed contact form website built with HTML, CSS, and inte
 ├── /assets  
 │ └── /css  
 │ └── style.css # Custom theme and form styling
-
 │ └──images # Folder of favicons, pdf's and other images
 
 ## 🔧 How It Works
@@ -47,10 +49,6 @@ To use your own email:
 ```html
 <form action="https://formsubmit.co/your-email@example.com" method="POST">
 ```
-
-## 💡 Deployment
-
-This site is Netlify-ready. 
 
 ## 📬 Contact
 
