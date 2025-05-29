@@ -19,6 +19,7 @@ This is a sleek, dark-themed contact form website built with HTML, CSS, and inte
 
 - **HTML5** — Semantic structure
 - **CSS3** — Custom styling with CSS variables
+- **JS** - Sidebar, testimonials modal, custom select filtering, form validation, and page navigation.
 - **FormSubmit** — Email form backend without server code
 
 ## 📂 Project Structure
