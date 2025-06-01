@@ -31,6 +31,7 @@ This is a sleek, dark-themed contact form website built with HTML, CSS, JS, and 
 ├── /assets  
 │ └── /css  
 │ └── style.css # Custom theme and form styling
+
 │ └──images # Folder of favicons, pdf's and other images
 
 ## 🔧 How It Works
