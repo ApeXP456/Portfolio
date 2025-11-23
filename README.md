@@ -2,6 +2,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/28c7c174-a657-441e-a137-fd53d85ca7e5/deploy-status)](https://app.netlify.com/projects/jarodcunningham/deploys)
 
 ## 💡 Deployment
+<img width="1656" height="945" alt="Screenshot 2025-11-23 182423" src="https://github.com/user-attachments/assets/640df349-4a06-48ea-8297-74375d60a38e" />
 
 This site is Netlify-ready. 
 Visit the Website here:
