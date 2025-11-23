@@ -7,32 +7,21 @@ This site is Netlify-ready.
 Visit the Website here:
 https://jarodcunningham.netlify.app/
 
-This is a sleek, dark-themed contact form website built with HTML, CSS, JS, and integrated with [FormSubmit](https://formsubmit.co) for backend-free form submissions. The site includes a styled submission form, a custom thank-you page, and responsive layout optimized for deployment (e.g., Netlify).
+This is a sleek, personal website built with HTML, CSS, JS, and integrated with a contact form [FormSubmit](https://formsubmit.co) for form submissions. 
+The site includes a custom thank-you page, and responsive layout optimized for deployment (e.g., Netlify).
 
 ## 🚀 Features
 
 - Fully responsive design
-- Dark theme UI
 - Styled input fields with hover and focus states
-- No backend required — powered by [FormSubmit](https://formsubmit.co)
-- Redirects to a custom thank-you page after form submission
-- Organized structure ready for deployment
+- Redirects to a custom thank-you page after contact form submission
 
 ## 🧱 Built With
 
 - **HTML5** — Semantic structure
 - **CSS3** — Custom styling with CSS variables
 - **JS** - Sidebar, testimonials modal, custom select filtering, form validation, and page navigation.
-- **FormSubmit** — Email form backend without server code
-
-## 📂 Project Structure
-├── index.html # Main webpage with the contact form  
-├── thank-you.html # Confirmation page after submission  
-├── /assets  
-│ └── /css  
-│ └── style.css # Custom theme and form styling
-
-│ └──images # Folder of favicons, pdf's and other images
+- **FormSubmit** — Email form
 
 ## 🔧 How It Works
 
@@ -40,17 +29,7 @@ This is a sleek, dark-themed contact form website built with HTML, CSS, JS, and 
 2. FormSubmit processes and sends the submission to the configured email.
 3. On success, user is redirected to `thank-you.html`.
 
-> **Note:** FormSubmit requires your email to be verified via a confirmation link the first time you receive submissions.
-
-## 🛠️ Configuration
-
-To use your own email:
-1. Replace the email in the form’s `action` attribute:
-
-```html
-<form action="https://formsubmit.co/your-email@example.com" method="POST">
-```
-
+**Note:** FormSubmit requires your email to be verified via a confirmation link the first time you receive submissions.
 ## 📬 Contact
 
 Created by **[Jarod Cunningham]**
