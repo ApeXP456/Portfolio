@@ -15,7 +15,7 @@ This is a sleek, dark-themed contact form website built with HTML, CSS, JS, and 
 - Fully responsive design
 - Dark theme UI
 - Styled input fields with hover and focus states
-- No backend required — powered by [FormSubmit](https://formsubmit.co)
+- Powered by [FormSubmit](https://formsubmit.co)
 - Redirects to a custom thank-you page after form submission
 - Organized structure ready for deployment
 
@@ -26,32 +26,12 @@ This is a sleek, dark-themed contact form website built with HTML, CSS, JS, and 
 - **JS** - Sidebar, testimonials modal, custom select filtering, form validation, and page navigation.
 - **FormSubmit** — Email form backend without server code
 
-## 📂 Project Structure
-├── index.html # Main webpage with the contact form  
-├── thank-you.html # Confirmation page after submission  
-├── /assets  
-│ └── /css  
-│ └── style.css # Custom theme and form styling
-
-│ └──images # Folder of favicons, pdf's and other images
-
 ## 🔧 How It Works
 
 1. User fills out the contact form.
 2. FormSubmit processes and sends the submission to the configured email.
 3. On success, user is redirected to `thank-you.html`.
-
-> **Note:** FormSubmit requires your email to be verified via a confirmation link the first time you receive submissions.
-
-## 🛠️ Configuration
-
-To use your own email:
-1. Replace the email in the form’s `action` attribute:
-
-```html
-<form action="https://formsubmit.co/your-email@example.com" method="POST">
-```
-
+   
 ## 📬 Contact
 
 Created by **[Jarod Cunningham]**
