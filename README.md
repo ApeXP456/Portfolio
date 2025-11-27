@@ -6,7 +6,7 @@
 
 This site is Netlify-ready. 
 Visit the Website here:
-https://jarodcunningham.netlify.app/
+https://jarodlcunningham.com/
 
 This is a sleek, dark-themed contact form website built with HTML, CSS, JS, and integrated with [FormSubmit](https://formsubmit.co) for backend-free form submissions. The site includes a styled submission form, a custom thank-you page, and responsive layout optimized for deployment (e.g., Netlify).
 
@@ -34,5 +34,5 @@ This is a sleek, dark-themed contact form website built with HTML, CSS, JS, and 
    
 ## 📬 Contact
 
-Created by **[Jarod Cunningham]**
+Created by **Jarod Cunningham**
 Feel free to reach out!
